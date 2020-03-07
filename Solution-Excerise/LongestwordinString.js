@@ -2,7 +2,7 @@ var LongestWord = (inputString) =>
 {
     let maxLength = 0;
     let word = "";
-    let wordsInString = inputString.split(" "); debugger;
+    let wordsInString = inputString.split(" ");
     for(let index = 0; index<wordsInString.length; index++)
     {
         if(wordsInString[index].length > maxLength)
@@ -14,4 +14,6 @@ var LongestWord = (inputString) =>
     
     return word;
 }
+
+
 
